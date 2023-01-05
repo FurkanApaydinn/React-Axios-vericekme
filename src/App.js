@@ -57,7 +57,7 @@ function App() {
         
       </div>
       <p style={{fontWeight: "bold"}}>Aşağıdaki alana id numarası giriniz:</p>
-      <p style={{ margin: "20px auto" }}><input type="text" value={id} onChange={a => setId(a.target.value)} style={{ width: "400px", height: "30px" }} /></p>
+      <p style={{ margin: "20px auto" }}><input type="number" value={id} onChange={a => setId(a.target.value)} style={{ width: "400px", height: "30px" }} /></p>
       <p style={{fontWeight: "bold"}}>Not:Liste 10 kişiden oluşmaktadır. Yukarıdaki textbox'a id numarası giriniz("0,1,2"). id numarası girdiğinizde yukarıda yer alan alanda bilgiler güncellenecektir.</p>
     </div>
   );
